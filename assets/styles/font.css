@@ -1,0 +1,9 @@
+@font-face {
+    font-family: HelveticaNeueCyr;
+    src: url("../fonts/helveticaneuecyr_ultralight.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr_Bold;
+    src: url("../fonts/helveticaneuecyr_roman.otf");
+}
