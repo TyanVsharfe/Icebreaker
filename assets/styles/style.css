@@ -9,10 +9,27 @@ header {
     align-items: center;
 }
 
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    width: 1294px;
+}
+
+/*nav {*/
+/*    padding-top: 30px;*/
+/*    padding-bottom: 120px;*/
+/*    display: flex;*/
+/*    width: 1294px;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
 .main-page {
     background-image: url('../images/background.png');
     height: 900px;
-    width: 1920px;
+    width: 100%; /*1920px;*/
 }
 
 .main {
@@ -20,9 +37,9 @@ header {
     margin-right: 312px;
     display: flex;
     align-items: flex-start;
-    width: 1294px;
+    /*width: 1294px;*/
     gap: 134px;
-    /*padding-top: 130px;*/
+    padding-top: 120px;
 }
 
 .main-info {
@@ -30,15 +47,6 @@ header {
     flex-direction: column;
     text-align: center;
     align-items: flex-start;
-}
-
-nav {
-    padding-top: 30px;
-    padding-bottom: 120px;
-    display: flex;
-    width: 1294px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 a {
@@ -66,7 +74,7 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
 }
 
-.section-about-us_main-logo {
+.section-about-us__main-logo {
     text-align: left;
 }
 
@@ -83,7 +91,7 @@ a:hover {
     line-height: 140%;
 }
 
-.section-info {
+.section-about {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -91,7 +99,7 @@ a:hover {
     gap: 30px;
 }
 
-.section-info__title {
+.section-about__title {
     color:  #FFF;
     font-family: HelveticaNeueCyr_Bold, serif;
     font-size: 60px;
@@ -102,7 +110,7 @@ a:hover {
     width: 636px;
 }
 
-.section-info__description {
+.section-about__description {
     color: #FFF;
     font-family: HelveticaNeueCyr_Bold, serif;
     font-size: 14px;
@@ -116,7 +124,7 @@ a:hover {
     padding-left: 30px;
 }
 
-.section-info__button {
+.section-about__button {
     background: #BD0007;
     display: flex;
     padding: 15px 50px 14px 30px;
@@ -187,7 +195,7 @@ button:hover {
     bottom: 0;
 }
 
-.section-info-about-icebreaker_title {
+.section-info-icebreaker__title {
     color: #FFF;
     font-family: HelveticaNeueCyr_Bold, serif;
     font-size: 14px;
@@ -206,7 +214,7 @@ button:hover {
     align-items: center;
 }
 
-.section-info-about-icebreaker__text {
+.section-info-icebreaker__text {
     color: #FFF;
     font-family: HelveticaNeueCyr, serif;
     font-size: 14px;
@@ -216,7 +224,7 @@ button:hover {
     line-height: 140%; /* 19.6px */
 }
 
-.section-info-about-icebreaker__description {
+.section-info-icebreaker__description {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
